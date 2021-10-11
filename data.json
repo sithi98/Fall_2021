@@ -1,0 +1,62 @@
+[
+    {
+        "FirstName": "",
+        "LastName": "",
+        "Age": "",
+        "Email": "",
+        "Password": "",
+        "Designation": null,
+        "hobby1": null,
+        "hobby2": null,
+        "hobby3": null,
+        "file": null
+    },
+    {
+        "FirstName": "",
+        "LastName": "",
+        "Age": "",
+        "Email": "",
+        "Password": "",
+        "Designation": null,
+        "hobby1": null,
+        "hobby2": null,
+        "hobby3": null,
+        "file": null
+    },
+    {
+        "FirstName": "sithi ",
+        "LastName": "shikder",
+        "Age": "22",
+        "Email": "abc@gmail.com",
+        "Password": "5678",
+        "Designation": "junior Programmer",
+        "hobby1": "C#",
+        "hobby2": null,
+        "hobby3": null,
+        "file": null
+    },
+    {
+        "FirstName": "",
+        "LastName": "",
+        "Age": "",
+        "Email": "",
+        "Password": "",
+        "Designation": null,
+        "hobby1": null,
+        "hobby2": null,
+        "hobby3": null,
+        "file": null
+    },
+    {
+        "FirstName": "sithi ",
+        "LastName": "shikder",
+        "Age": "22",
+        "Email": "asd@gmail.com",
+        "Password": "1234",
+        "Designation": "junior Programmer",
+        "hobby1": "C#",
+        "hobby2": null,
+        "hobby3": null,
+        "file": null
+    }
+]
