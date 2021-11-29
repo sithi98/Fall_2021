@@ -2,63 +2,58 @@
 <html>
 <head>
 <title>Page Title</title>
+
 <h1>Registration Form</h1>
 </head>
 <body>
+	
 	<hr>
-	<form action= "pform.php" method ="post">
+	<p id ="error"></p>
+	<form action="" method ="post" onsubmit="return validateForm()">
+		<script type="text/javascript" src="../control/validation.js">
+			
+		</script>
+	
 		<table>
 			
 			<tr>
-			    <td>FirstName:</td>
-		        <td><input type="text" name="FirstName" placeholder="Enter your fname">   </td>  
+			    <td>First Name:</td>
+		        <td><input type="text" name="fname" id =fname> </td>  
 		        
 		    </tr>
-			<tr>
-			    <td>LastName:</td>
-		        <td><input type="text" name="LastName" placeholder="Enter your lname"> 
-		          </td>  
+		    <tr>
+			    <td>Last Name:</td>
+		        <td><input type="text" name="lname" id="lname">   </td>  
 		        
-		    </tr>
-		    			<tr>
-			    <td>Age:</td>
-		        <td><input type="text" name="Age" placeholder="Enter your Age"> 
-		          </td>  
-		        
-		    </tr>   
-			<tr>
-			    <td>Email:</td>
-		        <td><input type="Email" name="Email" placeholder="Enter your Email">  </td>
 		    </tr> 
 		    <tr>
-			    <td>Password:</td>
-		        <td><input type="Password" name="Password" placeholder="Enter your Password">  </td>
-		    </tr> 
-		   
+			    <td>Age:</td>
+		        <td><input type="Age" name="age" id ="age">   </td>  
+		        
+		    </tr>
 		    <tr>
 			    <td>Designation:</td>
 		        <td>
-		        	<input type="radio" name="Designation" value="juniorProgrammer">
-		        	juniorProgrammer
+		        	<input type="radio" name="designation"id="designation1" value="junior">
+		        	Junior Programmer
 		       
-		        	<input type="radio" name="Designation"
-		        	value="SeniorProgrammer">
-		        	SeniorProgrammer
-		        	<input type="radio" name="Designation"
-		        	value="ProjectLeader">
+		        	<input type="radio" name="designation" id="designation2" value="senior">
+		        	Senior Programmer
+		        	<input type="radio" name="designation" id="designation3" value="lead">
 		        	Project Lead
 		        </td>
 		    </tr>
 		    <tr>
 		    	<td>
-		    		Prefferred language:
+		    		Preferred language
 		    	</td>
 		    	<td>
-		    		<input type="checkbox" name="hobby1" value="C#">
+		    		
+		    		<br><input type="checkbox" name="language" id="languag1" value="JAVA">
 		    		JAVA
-		    		<input type="checkbox" name="hobby2" value="PHP">
+		    		<input type="checkbox" name="language" id="language2" value="PHP">
 		    		PHP
-		    		<input type="checkbox" name="hobby3" value="C++">
+		    		<input type="checkbox" name="language" id="language3" value="C++">
 		    		C++
 		    		<br>
 		    		
@@ -66,17 +61,33 @@
 		    		
 		    	</td>
 		    </tr>
+			<tr>
+			    <td>Email:</td>
+		        <td><input type="text" name="email" id ="email">  </td>
+		    </tr> 
+		    <tr>
+			    <td>Password:</td>
+		        <td><input type="Password" name="password" id="password">  </td>
+		    </tr> 
 		    <tr>
 		    	<td>
 		    		please choose a file:
 		    	</td>
-		    	<td><input type="file" name="image"></td>
+		    	<td><input type="file" name="file" id ="file"></td>
 		    </tr> 
 		    <br>
 		</table>
-				    <input type="submit" value="submit" >
+				    <input type="submit" value="submit">
 		    <input type="reset" name="reset">		
 	</form>
+	 <p id ="ffname"></p>
+	 <p id ="llname"></p>
+	 <p id ="aage"></p>
+	 <p id ="ddesignation"></p>
+	 <p id ="eemail"></p>
+	 <p id ="ppassword"></p>
+	 <p id ="ffile"></p>
+	
 </hr>
 </body>
 </html>
